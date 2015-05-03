@@ -1,5 +1,6 @@
 <b>1. Textbook</b><br>
-<a href="http://www.gatsby.ucl.ac.uk/~dayan/book/">Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems</a><br>
+1.a.<a href="http://www.gatsby.ucl.ac.uk/~dayan/book/">Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems</a><br>
+1.b.Tutorial on Neural Systems Modeling<br>
 <br>
 <b>2. Math resources -- Khan academy</b><br>
 2.a.<a href="https://www.khanacademy.org/math/linear-algebra">Linear Algebra</a><br>
