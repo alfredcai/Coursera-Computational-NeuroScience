@@ -1,5 +1,6 @@
 ```
-Suppose x=[1 1 2 2 1 3 2 2 3 1]. Which expression returns the index of the first element of x equal to 3?
+Suppose x=[1 1 2 2 1 3 2 2 3 1]. Which expression returns the "index of the first element of x equal to 3"?
+(read this question carefully)
 ```
 ```m
 >> x=[1 1 2 2 1 3 2 2 3 1]
