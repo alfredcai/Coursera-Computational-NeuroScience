@@ -1,5 +1,6 @@
 ```
-Which of the following expressions could be used to set all of the negative entries in A to zero?
+Which of the following expressions could be used "to set all of the negative entries in A to zero"?
+(read this question carefully)
 ```
 ```m
 >> A=[5,-2,3;2,-3,4;3,4,-8]
