@@ -13,5 +13,5 @@ Levels:
 6: Nutrition (40% desire, 30% capable)
 7: Bio-chemistry (30% desire, 20% capable)
 8: Molecular Biology (20% desire, 40% capable)
-9: Muscles and Tissues (10% desire, 10% desire)
+9: Muscles and Tissues (10% desire, 10% capable)
 10: Bio-related math (10% desire, 20% capable)
