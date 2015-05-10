@@ -3,7 +3,7 @@ Nervous Systems:
 ```
 ```
 Types:-
-Pheriperal Nervous System and Centra Nervous System
+Pheriperal Nervous System and Central Nervous System
 ```
 ```
 Pheripheral Nervous System consists of Somatic and Autonomic nervous systems.
