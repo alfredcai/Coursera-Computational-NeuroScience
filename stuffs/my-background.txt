@@ -1,0 +1,17 @@
+Self-evaluation... Ignore this!
+
+-- Had knowledge in general science (includes basic biology) [1996-2001]
+-- Had knowledge in biology (school level) [2001-2006]
+-- Had knowledge in biology (difficult level - core subject in high school) [2006-2008]
+
+Levels:
+1: Neurology (100% desire, 80% capable)
+2: Cardiology (80% desire, 60% capable)
+3: Reproductive System (70% desire, 50% capable)
+4: Disecting parts (60% desire, 50% capable)
+5: MicroBiology (50% desire, 40% capable)
+6: Nutrition (40% desire, 30% capable)
+7: Bio-chemistry (30% desire, 20% capable)
+8: Molecular Biology (20% desire, 40% capable)
+9: Muscles and Tissues (10% desire, 10% desire)
+10: Bio-related math (10% desire, 20% capable)
