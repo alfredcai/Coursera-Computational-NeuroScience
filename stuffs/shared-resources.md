@@ -6,3 +6,5 @@
 2.a.<a href="https://www.khanacademy.org/math/linear-algebra">Linear Algebra</a><br>
 2.b.<a href="https://www.khanacademy.org/math/differential-calculus">Calculus</a><br>
 2.c.<a href="https://www.khanacademy.org/math/probability">Probability</a><br>
+<br>
+<b>3. <a href="http://www.cns.nyu.edu/~eero/NOTES/geomLinAlg.pdf">A Geometric Review of Linear Algebra</a><br>
