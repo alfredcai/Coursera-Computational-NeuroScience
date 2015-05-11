@@ -6,7 +6,9 @@ Basic coding models:
 The response of the time is highly dependent upon the stimulus of the time.
 s(t) -> r(t)
 ```
-2. Temporal filtering <br><br>
+```
+2. Temporal filtering
+```
 ![](http://geekresearchlab.net/coursera/neuro/simple-models-1.jpg)<br>
 ```
 Question:
