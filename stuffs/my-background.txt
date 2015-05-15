@@ -15,3 +15,10 @@ Levels:
 8: Molecular Biology (20% desire, 40% capable)
 9: Muscles and Tissues (10% desire, 10% capable)
 10: Bio-related math (10% desire, 20% capable)
+
+Having good discrete math background and related to it...
+https://github.com/ashumeow/cryptography-I/blob/master/stuffs/my-background.txt
+
+Has some programming background too.
+
+Math appears as one of the core for this course.
