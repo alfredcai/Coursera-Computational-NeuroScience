@@ -1,6 +1,6 @@
 ![](http://geekresearchlab.net/coursera/neuro/n-1.jpg)
 ```
-Each bit of information specifies location by additiona factor of 2.
+Each bit of information specifies location by additional factor of 2.
 ```
 ```
 Entropy is the average information of a random variable.
