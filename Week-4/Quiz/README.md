@@ -3,4 +3,4 @@ The quiz is the combination of activities done during <a href="https://github.co
 No.of attempts: 2/10
 Final Score: 13/13
 ```
-// TODO -- add solutions as well as explanation by the end of the course :)
+// TODO -- add solutions as well as explanations and related links by the end of the course :)
