@@ -1,0 +1,16 @@
+![](http://geekresearchlab.net/coursera/neuro/spi-1.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-2.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-3.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-4.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-5.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-6.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-7.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-8.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-9.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-10.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-11.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-12.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-13.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-14.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-15.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spi-16.jpg)<br>
