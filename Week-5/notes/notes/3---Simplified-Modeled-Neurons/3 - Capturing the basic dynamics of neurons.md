@@ -1,0 +1,11 @@
+![](http://geekresearchlab.net/coursera/neuro/spik-3.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-3-1.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-3-2.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-3-3.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-4.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-5.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-5-1.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-6.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-7.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/spik-8.jpg)<br>
+![](http://geekresearchlab.net/coursera/neuro/spik-8-1.jpg)<br>
