@@ -1,0 +1,14 @@
+![](http://geekresearchlab.net/coursera/neuro/dend-1.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-2.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-3.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-4.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-5.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-6.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-7.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-8.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-9.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-10.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-11.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-12.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-13.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/dend-14.jpg)<br>
