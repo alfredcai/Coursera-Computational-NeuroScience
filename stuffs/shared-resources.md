@@ -4,6 +4,10 @@ Shared resources during the course... To check more, then navigate to stuffs/sta
 <b>1. Textbook</b><br>
 1.a.<a href="http://www.gatsby.ucl.ac.uk/~dayan/book/">Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems</a> (only exercises)<br>
 1.b.Tutorial on Neural Systems Modeling<br>
+1.c.Foundations of Cellular Neurophysiology => The classic text for quantitative neurophysiology<br>
+1.d.The Biophysics of Computation => A compendium of neuronal hardware, its dynamics and functional implications for coding. <br>
+1.e.Dynamical systems in neuroscience => A highly recommended introduction to nonlinear dynamics applied to neuronal excitability.<br>
+1.f.Spikes: Exploring the Neural Code => Classic introductory book on neural coding. <br>
 <br>
 <b>2. Math resources -- Khan academy</b><br>
 2.a.<a href="https://www.khanacademy.org/math/linear-algebra">Linear Algebra</a><br>
