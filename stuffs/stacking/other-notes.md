@@ -4,3 +4,6 @@
 [4] <a href="https://senselab.med.yale.edu/ModelDB/ModelList.cshtml?id=114646&describe=yes&celldescr=&">Models that contain the Modeling Application : Python</a><br>
 [5] <b>FULL TEXTBOOK [PDF]</b> <a href="http://cns-classes.bu.edu/cn510/Papers/Theoretical%20Neuroscience%20Computational%20and%20Mathematical%20Modeling%20of%20Neural%20Systems%20-%20%20Peter%20Dayan,%20L.%20F.%20Abbott.pdf">Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems</a> <br>
 [6] <a href="http://tutorial.math.lamar.edu/">Paul's online Math notes</a><br>
+<br>
+<b>Other stuffs:</b><br>
+[1] <a href="http://www.stephenwolfram.com/publications/">Stephen Wolfram's publications</a><br>
