@@ -8,6 +8,7 @@ Shared resources during the course... To check more, then navigate to stuffs/sta
 1.d.The Biophysics of Computation => A compendium of neuronal hardware, its dynamics and functional implications for coding. <br>
 1.e.Dynamical systems in neuroscience => A highly recommended introduction to nonlinear dynamics applied to neuronal excitability.<br>
 1.f.Spikes: Exploring the Neural Code => Classic introductory book on neural coding. <br>
+1.g.<a href="http://bci.cs.washington.edu/">Brain-Computer Interfacing: An Introduction</a><br>
 <br>
 <b>2. Math resources -- Khan academy</b><br>
 2.a.<a href="https://www.khanacademy.org/math/linear-algebra">Linear Algebra</a><br>
