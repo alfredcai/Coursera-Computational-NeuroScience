@@ -1,0 +1,12 @@
+![](http://geekresearchlab.net/coursera/neuro/rl-1.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-2.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-3.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-4.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-5.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-6.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-7.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-8.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-9.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-10.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-11.jpg)<br><br>
+![](http://geekresearchlab.net/coursera/neuro/rl-12.jpg)
