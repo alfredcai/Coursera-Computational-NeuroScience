@@ -6,22 +6,11 @@ Quiz 2 code.
 
 from __future__ import division
 import numpy as np
-import scipy
-
-try:
-    import matplotlib.pyplot as plt
-except ImportError:
-    pass
-
-try:
-    import numpy.matlib as matlib
-except ImportError:
-    pass
+import matplotlib.pyplot as plt
 
 import pickle
 
 from compute_sta import compute_sta
-
 
 FILENAME = 'c1p8.pickle'
 

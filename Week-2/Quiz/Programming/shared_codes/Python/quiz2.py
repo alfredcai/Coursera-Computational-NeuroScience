@@ -6,24 +6,14 @@ Quiz 2 code.
 
 from __future__ import division
 import numpy as np
-import scipy
-
-try:
-	import matplotlib.pyplot as plt
-except ImportError:
-	pass
-
-try:
-	import numpy.matlib as matlib
-except ImportError:
-	pass
+import matplotlib.pyplot as plt
 
 import pickle
 
 from compute_sta import compute_sta
 
 
-FILENAME = 'neuro/week2/c1p8.pickle'
+FILENAME = 'c1p8.pickle'
 
 with open(FILENAME, 'rb') as f:
     data = pickle.load(f)
@@ -32,9 +22,9 @@ stim = data['stim']
 rho = data['rho']
 
 
-# Filled in these values
-sampling_period = 2 # in ms
-num_timesteps = 150
+# Fill in these values
+sampling_period = # in ms
+num_timesteps = 
 
 sta = compute_sta(stim, rho, num_timesteps)
 

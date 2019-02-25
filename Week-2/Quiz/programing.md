@@ -45,4 +45,4 @@ Note that we have given you code to find all of the indices in the stimulus vect
 
 Which of these plots most closely matches the spike-triggered average for this data set?
 
-![](http://geekresearchlab.net/coursera/neuro/spike.jpg)
+![](Programming/solutions/Python/spike.jpg)
