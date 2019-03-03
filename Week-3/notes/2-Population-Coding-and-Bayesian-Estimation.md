@@ -86,7 +86,7 @@ The variance of a poisson distribution is equal to the mean and the standard dev
 Therefore, if the mean firing rate is r, the variance is equal to r, and the standard deviation is equal to √r
 ```
 
-### Maximum likehood
+### Maximum likelihood
 
 From Gaussianity of tunning curves,
 $$
@@ -103,7 +103,7 @@ $$
 $$
 
 
-### maximum posterior distrubtion
+### maximum posterior distribution
 
 ```
 Question:
