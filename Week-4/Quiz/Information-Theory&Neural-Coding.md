@@ -1,6 +1,6 @@
 # Information Theory & Neural Coding
 
-## 1. 
+## 1. entropy H(F) of this distribution
 
 Suppose that we have a neuron which, in a given time period, will fire with probability 0.1, yielding a Bernoulli distribution for the neuron's firing (denoted by the random variable F = 0 or 1) with P(F = 1) = 0.1.
 
@@ -8,12 +8,21 @@ Which of these is closest to the entropy H(F) of this distribution (calculated i
 
 (i) 0.4690
 (ii) -0.1954
-(iiii) 1.999
+(iii) 1.999
 (iv) 0.1954
 
+Answer:
+(i) 0.4690
 
+H(f)=-$\sum_i{p_i \log{p_i}}$
+h(f)=-0.1*$\log_2(0.1)$-0.9*$log_2(0.9)$=0.4689955935892812
 
-## 2. 
+```python3
+from math import log2
+-0.1*log2(0.1)-0.9*log2(0.9)
+```
+
+## 2. the mutual information $MI(S,F)$
 
 Continued from Question 1:
 
@@ -25,13 +34,27 @@ Which of these is closest, in bits (log base 2 units), to the mutual information
 
 (i) 0.0904
 (ii) 0.8476
-(iiii) 0.3786
+(iii) 0.3786
 (iv) -0.3786
 
-## 3. 
+Answer:
+(i) 0.0904
+
+MI(S,F)=total entropy - average noise entropy
+total entropy: H(R)=
+noise entropy: H(R|+)=-0.5*log2(0.5)-0.5*log2(0.5)=1.0
+
+
+MI(S,F)=H[F]-$\sum_S{P(S)H(F|S)}$
+H[F]=-0.1*$\log_2(0.1)$-0.9*$log_2(0.9)$=0.4689955935892812
+$\sum_S{P(S)H(F|S)}$=0.1*0.5+0.9/18=0.1
+
+MI(S,F)=0.36899559358928125
+
+## 3. What do the $\phi_i s$, called the "basis functions," represent in our metaphor?
+
 $$
 \begin{aligned}
-
     I(x) &=\sum_i{a_i \phi_i(x)} + \epsilon(x) \\
     E &=\sum_x{[I(x)-\sum_i{a_i \phi_i(x)}]^2}+\lambda\sum_i{C(a_i)}
 \end{aligned}
@@ -52,10 +75,13 @@ Now let's put this metaphor into action to understand what all these symbols mea
 
 What do the $\phi_i s$, called the "basis functions," represent in our metaphor?
 
-(i) 
-(ii) 
-(iiii) 
-(iv) 
+(i) The level of transparency vs. opacity/influence of each piece.
+(ii) The importance of coding efficiency.
+(iii) The pieces that make up the image.
+(iv) The difference between the actual image and the representation.
+
+Answer:
+The pieces that make up the image.
 
 ## 4. What does $\epsilon$ represent?
 
@@ -65,8 +91,11 @@ What does $\epsilon$ represent?
 
 (i) The difference between the actual image and the representation.
 (ii) The importance of coding efficiency.
-(iiii) The level of transparency vs. opacity/influence of each piece.
+(iii) The level of transparency vs. opacity/influence of each piece.
 (iv) The pieces that make up the image.
+
+Answer:
+The difference between the actual image and the representation.
 
 ## 5. What do the $a_i$ 's represent?
 
@@ -76,8 +105,11 @@ What do the $a_i$ 's represent?
 
 (i) The importance of coding efficiency.
 (ii) The difference between the actual image and the representation.
-(iiii) The pieces that make up the image.
+(iii) The pieces that make up the image.
 (iv) The level of transparency vs. opacity/influence of each piece
+
+Answer:
+The level of transparency vs. opacity/influence of each piece
 
 ## 6. What does $\lambda$ represent?
 
@@ -87,10 +119,13 @@ What does $\lambda$ represent?
 
 (i) The pieces that make up the image.
 (ii) The difference between the actual image and the representation.
-(iiii) The level of transparency vs. opacity/influence of each piece.
+(iii) The level of transparency vs. opacity/influence of each piece.
 (iv) The importance of coding efficiency.
 
-## 7. 
+Answer:
+The importance of coding efficiency.
+
+## 7. best describes the tuning curve
 
 In the following three questions, we will explore Poisson neuron models and population coding.
 
@@ -108,8 +143,11 @@ Which of the following functions best describes the tuning curve?
 
 (i) Gaussian.
 (ii) Unrectified cosine.
-(iiii) Half-wave rectified cosine.
+(iii) Half-wave rectified cosine.
 (iv) Linear function.
+
+Answer：
+Half-wave rectified cosine.
 
 ## 8. Which of the neurons (if any) is NOT Poisson?
 
@@ -125,9 +163,12 @@ In order to realize why this might be helpful, consider the fact that, for a con
 
 (i) None.
 (ii) Neuron 1.
-(iiii) Neuron 2.
+(iii) Neuron 2.
 (iv) Neuron 3.
 (v) Neuron 4.
+
+Ansewer:
+Neuron 3.
 
 ## 9. 
 
@@ -142,3 +183,6 @@ Decode the neural responses and recover the mystery stimulus vector by computing
 What is the direction, in degrees, of the population vector? You should round your answer to the nearest degree. Your answer should contain the value only (no units!) and should be between $0^{\circ}$ and $360^{\circ}$. If your calculations give a negative number or a number greater than or equal to 360, convert it to a number in the proper range (you may use the mod function to do this).
 
 You may need to convert your resulting vector from Cartesian coordinates to polar coordinates to find the angle. You may use the atan() function in MATLAB to do this. Note that the the convention we're using defines $0^{\circ}$ to point in the direction of the positive y-axis and $90^{\circ}$ to point in the direction of the positive x-axis (i.e., 0 degrees is north, 90 degrees is east).
+
+Answer:
+112
