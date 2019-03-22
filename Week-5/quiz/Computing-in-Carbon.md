@@ -11,6 +11,7 @@ When we talk about "spikes", we are referring to the change in some property of 
 (v) Voltage
 
 Answer:
+
 voltage
 
 ## 2. 
@@ -27,7 +28,7 @@ In this circuit diagram representing a piece of neuronal cell membrane, the batt
 (vi) lipid bilayer, ion concentration gradient, ion channels
 
 Answer:
-(x)lipid bilayer, ion channels, ion concentration gradient
+
 ion concentration gradient, ion channels, lipid bilayer
 
 ## 3. 
@@ -40,8 +41,8 @@ Let's imagine there is another ion that is relevant to determining a neuron's me
 (iv) hyperpolarize, decreasing
 
 Answer:
-depolarize, decreasing,x
-depolarize, increasing
+
+hyperpolarize, decreasing
 
 ## 4. 
 
@@ -57,9 +58,8 @@ $I_{Im}$ = ${\bar{g}}_{Im}(1-u)^{5}(1-z)(V - E_{Im})​$
 $I_{Im}$ = ${\bar{g}}_{Im}u^{5}z(V - E_{Im})$
 
 Answer:
-$I_{Im}$ = ${\bar{g}}_{Im}(1-u)^{5}(1-z)(V - E_{Im})$,x
 
-$I_{Im}$ = ​${\bar{g}}_{Im}u^{5}z(V - E_{Im})​$
+$I_{Im}$ = ​${\bar{g}}_{Im}u^{5}z(V - E_{Im})$
 
 ## 5. 
 
@@ -73,6 +73,7 @@ Let's come back to the real-life $\text{Na}^{+}$ (sodium) channel, whose voltage
 (iv) They will both reach their steady states simultaneously.
 
 Answer:
+
 m
 
 ## 6.
@@ -85,17 +86,16 @@ $\tau_{h}$ is high relative to $\tau_{m}$, so hh does not reach $h_{\infty}$ fas
 $\tau_{h}$ decreases significantly from resting voltage to higher voltages.
 
 Answer:
-$\tau_{h}$ decreases significantly from resting voltage to higher voltages.,x
 
-
+$\tau_{h}$ is high relative to $\tau_{m}$, so hh does not reach $h_{\infty}$ fast enough to block the spike.
 
 ## 7. 
 
 True or false: All neural coding can essentially be reduced to variations in firing rate. This allows the information in complex spiking patterns to be summarized in a "rate code."
 
-
 Answer:
-true,x
+
+false
 
 ## 8. 
 
@@ -109,6 +109,7 @@ Recall the exponential integrate and fire neuron model, schematized above. How m
 (iv) 3
 
 Answer:
+
 1
 
 ## 9. 
@@ -131,13 +132,11 @@ $w = \dfrac{bV}{c}$
 
 $\dfrac{dV}{dt} = V(a - V)(V - 1) - w + I$
 
-$\dfrac{dw}{dt} = bV - cw$
+$\dfrac{dw}{dt} = bV - cw​$
 
 Answer:
-$w = V(a-V)(V-1)+I$,x
 
-Explanation:
-let $\dfrac{dV}{dt}=0$
+$w = \dfrac{bV}{c}$
 
 ## 10. 
 
@@ -151,6 +150,7 @@ C
 D
 
 Answer:
+
 D
 
 Explanation:
@@ -172,7 +172,6 @@ Answer:
 Explanation:
 steady state: v=v_{in}
 
-
 ## 12. 
 
 Change the values for the membrane's resistance and capacitance (R and C), and find out how this influences the response of the membrane. Does it reach a stable value more quickly or more slowly after multiplying R by 5?
@@ -182,6 +181,7 @@ More quickly.
 Same rate.
 
 Answer:
+
 More slowly.
 
 ## 13. 
@@ -193,6 +193,7 @@ More quickly.
 Same rate.
 
 Answer:
+
 More quickly.
 
 ## 14. 
@@ -204,6 +205,7 @@ More quickly.
 Same rate.
 
 Answer:
+
 Same rate.
 
 ## 15. 
@@ -213,8 +215,7 @@ An experimental method for calculating a membrane’s time constant $\tau$ (when
 To do this, find the solution to the differential equation for the passive membrane:
 $$
 \begin{aligned}
-  \dfrac{\text{d}V}{\text{d}t} &= - \dfrac{V}{RC} + \dfrac{I}{C} 
-dt \\
+  \dfrac{\text{d}V}{\text{d}t} &= - \dfrac{V}{RC} + \dfrac{I}{C} dt \\
   V(0) &= 0
 \end{aligned}
 $$
@@ -229,7 +230,8 @@ $V(t) = IRV(t)=IR$
 $V(t) = IRe^{-\frac{t}{\tau}}$
 
 Answer:
-$V(t) = IRe^{-\frac{t}{\tau}}$,x
+
+$V(t) = IR(1 - e^{-\frac{t}{\tau}})$
 
 ## 16. 
 
@@ -241,6 +243,7 @@ You should vary the input current gradually from very low to high values to find
 
 
 Answer:
+
 250
 
 ## 17. 
@@ -250,7 +253,8 @@ Continued from Question 16:
 What is the maximum firing rate (spike count/trial duration) of this neuron? Give your answer in Hz and round your answer to the nearest integer value. Do not include the units in your answer.
 
 Answer:
-34,x
+
+170
 
 ## 18. 
 
@@ -268,4 +272,5 @@ What best describes how this distribution changes as you increase the amplitude 
 (iv) The distribution of intervals widens from a narrow peak to become a gamma distribution.
 
 Answer:
-The distribution of intervals widens from a narrow peak to become a gamma distribution.,x
+
+The distribution of intervals broadens from a single sharp peak to an exponential-like distribution, but with an avoided range near zero.

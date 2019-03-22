@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 # input current
-I = 40  # nA
+I = 1  # nA
 
 # capacitance and leak resistance
 C = 1  # nF
@@ -21,7 +21,8 @@ R = 40  # M ohms
 
 # I & F implementation dV/dt = - V/RC + I/C
 # Using h = 1 ms step size, Euler method
-for I in [0.2, 0.3, 1, 10, 30, 40, 50, 60]:
+current_list = [0.2, 0.25, 0.3, 1,8.5, 9, 10, 30, 40, 50, 60]
+for index, I in enumerate(current_list):
     V = 0
     tstop = 200
     abs_ref = 5  # absolute refractory period
@@ -44,8 +45,12 @@ for I in [0.2, 0.3, 1, 10, 30, 40, 50, 60]:
             ref = abs_ref  # set refractory counter
 
         V_trace += [V]
-    print("I:%d Number of spikes = %d\n" % (I, numSpikes))
+    firing_rate = numSpikes/tstop*1000
+    print("I:%.2f,firing_rate:%0.1f, Number of spikes = %d\n" %
+          (I, firing_rate, numSpikes))
+    plt.subplot(len(current_list), 1, index + 1)
+    # print("I:%.2f,firing_rate:%0.1f, Number of spikes = %d\n" % (I, firing_rate, numSpikes))
+    plt.plot(V_trace)
 
 
-# plt.plot(V_trace)
-# plt.show()
+plt.show()

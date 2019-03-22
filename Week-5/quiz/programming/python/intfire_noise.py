@@ -21,12 +21,11 @@ R = 40  # M ohms
 
 # I & F implementation dV/dt = - V/RC + I/C
 # Using h = 1 ms step size, Euler method
-plt.figure(1)
 # input current
-nosiserange = np.arange(0, 5, 0.25)
+nosiserange = np.arange(0, 5, 1)
 for index, noiseamp in enumerate(nosiserange):
     V = 0
-    tstop = 10000  # 200
+    tstop = 200*3
     abs_ref = 5  # absolute refractory period
     ref = 0  # absolute refractory period counter
     V_trace = []  # voltage trace for plotting
@@ -47,10 +46,13 @@ for index, noiseamp in enumerate(nosiserange):
             ref = abs_ref  # set refractory counter
             spiketimes += [t]
         V_trace += [V]
-
+    plt.figure(1)
+    plt.subplot(len(nosiserange), 1, index + 1)
+    plt.plot(V_trace)
 # print(spiketimes)
 # plt.plot(V_trace)
 # plt.show()
+    plt.figure(2)
     plt.subplot(len(nosiserange), 1, index+1)
     z = 0
     x = 0
