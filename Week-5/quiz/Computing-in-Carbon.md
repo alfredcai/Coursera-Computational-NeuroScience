@@ -11,13 +11,11 @@ When we talk about "spikes", we are referring to the change in some property of 
 (v) Voltage
 
 Answer:
-
 voltage
-
 
 ## 2. 
 
-![](circuit.png)
+![](pic/circuit.png)
 
 In this circuit diagram representing a piece of neuronal cell membrane, the battery, resistor, and capacitor are roughly analogous to the ___ , ___ , and ___ respectively.
 
@@ -29,7 +27,8 @@ In this circuit diagram representing a piece of neuronal cell membrane, the batt
 (vi) lipid bilayer, ion concentration gradient, ion channels
 
 Answer:
-
+(x)lipid bilayer, ion channels, ion concentration gradient
+ion concentration gradient, ion channels, lipid bilayer
 
 ## 3. 
 
@@ -41,29 +40,32 @@ Let's imagine there is another ion that is relevant to determining a neuron's me
 (iv) hyperpolarize, decreasing
 
 Answer:
-
+depolarize, decreasing,x
+depolarize, increasing
 
 ## 4. 
 
-Suppose $\text{Im}^{+}$ channels are composed of 5 subunits that open and close independently, as well as an additional "ball-in-socket" gating mechanism. Each of the 5 subunits has a voltage-dependent open probability uu and closed probability (1-u), while the ball-in-socket gating mechanism has a voltage-dependent open probability zz and closed probability (1-z). Which expression could most likely be used to express the $\text{Im}^{+}$ current across the membrane?
+Suppose $\text{Im}^{+}$ channels are composed of 5 subunits that open and close independently, as well as an additional "ball-in-socket" gating mechanism. Each of the 5 subunits has a voltage-dependent open probability uu and closed probability (1-u), while the ball-in-socket gating mechanism has a voltage-dependent open probability z and closed probability (1-z). Which expression could most likely be used to express the $\text{Im}^{+}$ current across the membrane?
 
 
-$I_{Im}$ = ${\bar{g}}_{Im}uz(V - E_{Im})$
+$I_{Im}$ = ${\bar{g}}_{Im}uz(V - E_{Im})​$
 
 $I_{Im}$ = ${\bar{g}}_{Im}u(1-z)(V - E_{Im})$
 
-$I_{Im}$ = ${\bar{g}}_{Im}(1-u)^{5}(1-z)(V - E_{Im})$
+$I_{Im}$ = ${\bar{g}}_{Im}(1-u)^{5}(1-z)(V - E_{Im})​$
 
 $I_{Im}$ = ${\bar{g}}_{Im}u^{5}z(V - E_{Im})$
 
 Answer:
+$I_{Im}$ = ${\bar{g}}_{Im}(1-u)^{5}(1-z)(V - E_{Im})$,x
 
+$I_{Im}$ = ​${\bar{g}}_{Im}u^{5}z(V - E_{Im})​$
 
 ## 5. 
 
-![](naDyn.png)
+![](pic/naDyn.png)
 
-Let's come back to the real-life $\text{Na}^{+}$ (sodium) channel, whose voltage-dependent dynamics are shown above. $m_{\infty}$ and $h_{\infty$ (the steady states of m and h) are shown for different V, along with the associated voltage-dependent time constants $\tau_{m}$ and $\tau_{h}$. Remember that mm is the probability that any individual channel subunit is open and hh is the probability that the additional ball-in-socket gating mechanism is open. If the neuron is at its resting potential (around -65 mV), and we deliver a current injection that decreases the membrane voltage to -75 mV, which of the following will be the first to reach its new steady state?
+Let's come back to the real-life $\text{Na}^{+}$ (sodium) channel, whose voltage-dependent dynamics are shown above. $m_{\infty}$ and $h_{\infty}$ (the steady states of m and h) are shown for different V, along with the associated voltage-dependent time constants $\tau_{m}$ and $\tau_{h}​$. Remember that mm is the probability that any individual channel subunit is open and hh is the probability that the additional ball-in-socket gating mechanism is open. If the neuron is at its resting potential (around -65 mV), and we deliver a current injection that decreases the membrane voltage to -75 mV, which of the following will be the first to reach its new steady state?
 
 (i) Actually, the steady states will not change.
 (ii) h
@@ -71,7 +73,7 @@ Let's come back to the real-life $\text{Na}^{+}$ (sodium) channel, whose voltage
 (iv) They will both reach their steady states simultaneously.
 
 Answer:
-
+m
 
 ## 6.
 
@@ -83,6 +85,8 @@ $\tau_{h}$ is high relative to $\tau_{m}$, so hh does not reach $h_{\infty}$ fas
 $\tau_{h}$ decreases significantly from resting voltage to higher voltages.
 
 Answer:
+$\tau_{h}$ decreases significantly from resting voltage to higher voltages.,x
+
 
 
 ## 7. 
@@ -91,11 +95,11 @@ True or false: All neural coding can essentially be reduced to variations in fir
 
 
 Answer:
-
+true,x
 
 ## 8. 
 
-![](expIntFire.png)
+![](pic/expIntFire.png)
 
 Recall the exponential integrate and fire neuron model, schematized above. How many stable fixed points does the system have?
 
@@ -105,7 +109,7 @@ Recall the exponential integrate and fire neuron model, schematized above. How m
 (iv) 3
 
 Answer:
-
+1
 
 ## 9. 
 
@@ -117,7 +121,7 @@ $$
 \end{aligned}
 $$
 
-where V is voltage, ww represents an outward hyperpolarizing current, I is injected current, and a, b, and c are constants.
+where V is voltage, w represents an outward hyperpolarizing current, I is injected current, and a, b, and c are constants.
 
 Which of the following is an expression for the w-nullcline?
 
@@ -130,11 +134,14 @@ $\dfrac{dV}{dt} = V(a - V)(V - 1) - w + I$
 $\dfrac{dw}{dt} = bV - cw$
 
 Answer:
+$w = V(a-V)(V-1)+I$,x
 
+Explanation:
+let $\dfrac{dV}{dt}=0$
 
 ## 10. 
 
-![](FNflowOP.png)
+![](pic/FNflowOP.png)
 
 The above figure is a phase plane based on the FitzHugh-Nagumo model from the previous question. A vector field is shown that gives a sense of the flow of the system. If we observe a spike in this system, the trajectory will travel counterclockwise around the phase plane. The first part, or “upstroke,” of the spike occurs in which of the following regions of the phase plane (regions are labeled in the figure)?
 
@@ -144,11 +151,15 @@ C
 D
 
 Answer:
+D
 
+Explanation:
+spike starts at the point of two curve intersection
 
-## 11. 
+## 11. What would the steady state voltage of the membrane be?
 
 The next five questions utilize the following MATLAB code to model a passive neuronal membrane as an RC-circuit. (Remember that in the membrane model, the resistor and capacitor are in parallel.)
+> membrane.py or membrane.m
 This code demonstrates how a membrane responds to a constant current input that is turned on for a fixed time interval and then turned off.
 
 What if the current were not turned off? What would the **steady state voltage** of the membrane be?
@@ -156,6 +167,10 @@ What if the current were not turned off? What would the **steady state voltage**
 Use the values given in the script to compute your answer (C = 0.1 nF, R = 100 M$\Omega$, I = 10 nA). You should give your answer in mV. Do not include units in your answer.
 
 Answer:
+1000
+
+Explanation:
+steady state: v=v_{in}
 
 
 ## 12. 
@@ -167,7 +182,7 @@ More quickly.
 Same rate.
 
 Answer:
-
+More slowly.
 
 ## 13. 
 
@@ -178,7 +193,7 @@ More quickly.
 Same rate.
 
 Answer:
-
+More quickly.
 
 ## 14. 
 
@@ -189,7 +204,7 @@ More quickly.
 Same rate.
 
 Answer:
-
+Same rate.
 
 ## 15. 
 
@@ -214,19 +229,19 @@ $V(t) = IRV(t)=IR$
 $V(t) = IRe^{-\frac{t}{\tau}}$
 
 Answer:
-
+$V(t) = IRe^{-\frac{t}{\tau}}$,x
 
 ## 16. 
 
 In the next three questions, you will explore the integrate-and-fire neuron model. To do this, you should start by downloading the following code and tweak it to run "experiments" on the neuron:
-
+> intfire.m or intfire.py
 What is the largest current that will fail to cause the neuron to spike? Give your answer in pA and round down to the nearest 10 pA. Do not include units in your answer.
 
 You should vary the input current gradually from very low to high values to find this value and then validate your answer with an analytical solution.
 
 
 Answer:
-
+250
 
 ## 17. 
 
@@ -235,7 +250,7 @@ Continued from Question 16:
 What is the maximum firing rate (spike count/trial duration) of this neuron? Give your answer in Hz and round your answer to the nearest integer value. Do not include the units in your answer.
 
 Answer:
-
+34,x
 
 ## 18. 
 
@@ -253,3 +268,4 @@ What best describes how this distribution changes as you increase the amplitude 
 (iv) The distribution of intervals widens from a narrow peak to become a gamma distribution.
 
 Answer:
+The distribution of intervals widens from a narrow peak to become a gamma distribution.,x

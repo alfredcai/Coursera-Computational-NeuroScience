@@ -13,36 +13,39 @@ import matplotlib.pyplot as plt
 
 
 # input current
-I = 1 # nA
+I = 40  # nA
 
 # capacitance and leak resistance
-C = 1 # nF
-R = 40 # M ohms
+C = 1  # nF
+R = 40  # M ohms
 
 # I & F implementation dV/dt = - V/RC + I/C
 # Using h = 1 ms step size, Euler method
+for I in [0.2, 0.3, 1, 10, 30, 40, 50, 60]:
+    V = 0
+    tstop = 200
+    abs_ref = 5  # absolute refractory period
+    ref = 0  # absolute refractory period counter
+    V_trace = []  # voltage trace for plotting
+    V_th = 10  # spike threshold
+    numSpikes = 0   # Number of spikes in the trial period
 
-V = 0
-tstop = 200
-abs_ref = 5 # absolute refractory period 
-ref = 0 # absolute refractory period counter
-V_trace = []  # voltage trace for plotting
-V_th = 10 # spike threshold
+    for t in range(tstop):
 
-for t in range(tstop):
-  
-   if not ref:
-       V = V - (V/(R*C)) + (I/C)
-   else:
-       ref -= 1
-       V = 0.2 * V_th # reset voltage
-   
-   if V > V_th:
-       V = 50 # emit spike
-       ref = abs_ref # set refractory counter
+        if not ref:
+            V = V - (V/(R*C)) + (I/C)
+        else:
+            ref -= 1
+            V = 0.2 * V_th  # reset voltage
 
-   V_trace += [V]
+        if V > V_th:
+            V = 50  # emit spike
+            numSpikes += 1
+            ref = abs_ref  # set refractory counter
+
+        V_trace += [V]
+    print("I:%d Number of spikes = %d\n" % (I, numSpikes))
 
 
-plt.plot(V_trace)
-plt.show()
+# plt.plot(V_trace)
+# plt.show()

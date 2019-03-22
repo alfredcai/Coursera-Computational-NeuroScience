@@ -16,8 +16,8 @@ I = 10 # nA
 
 # capacitance and leak resistance
 
-C = 0.1 # nF
-R = 100 # M ohms
+C = 0.01 # nF
+R = 1000 # M ohms
 tau = R*C # = 0.1*100 nF-Mohms = 100*100 pF Mohms = 10 ms
 print('C = %.3f nF' % C)
 print('R = %.3f M ohms' % R)
@@ -53,6 +53,7 @@ for t in np.arange(h, tstop, h):
      I = 0
 
    V_trace += [V]
+   print(np.max(V_trace))
    if t % 10 == 0:
        plt.plot(np.arange(0,t+h, h), V_trace, color='r')
        plt.xlim(0, tstop)
