@@ -12,13 +12,9 @@ Suppose we processed the image and it looked like this:
 ![](pic/q5_paveBlurred.jpg)
 
 Which of the following weight matrices W would give us a feedforward network most closely approximating this image processing operation?
-
-
-
 ​	
 Answers:
-
-
+0.33
 
 ## 2.
 Suppose we processed the image and it looked like this:
@@ -28,7 +24,7 @@ Suppose we processed the image and it looked like this:
 Which of the following weight matrices W would give us a feedforward network most closely approximating this image processing operation?
 
 Answers:
-
+0.5
 
 ## 3.
 Suppose we processed the image and it looked like this:
@@ -38,7 +34,7 @@ Suppose we processed the image and it looked like this:
 Which of the following weight matrices W would give us a feedforward network most closely approximating this image processing operation?
 
 Answers:
-
+0.75
 
 ## 4.
 Suppose we processed the image and it looked like this:
@@ -48,7 +44,7 @@ Suppose we processed the image and it looked like this:
 Which of the following weight matrices WW would give us a feedforward network most closely approximating this image processing operation?
 
 Answers:
-
+1
 
 ## 5.
 In lecture 6.2, we encountered a process of conceptual abstraction, taking us from modeling individual neurons to modeling whole networks. By the middle of the lecture, we had abstracted away many of the interesting time dynamics of feedforward neural networks and arrived at a simple equation:
@@ -69,6 +65,9 @@ We have to make a number of assumptions to get to this equation. Necessarily we 
 [] Since this model does not use a detailed description of individual cells, it does not account for the strength of individual synaptic connections.
 
 Answers:
+
+This model ignores the effects of synchrony and correlation between the input neurons.
+This model cannot adequately represent many of the dynamics of individual cells, such as the effect of the refractory period.2.1/3
 
 
 ## 6.
@@ -92,7 +91,7 @@ The neuron's firing rate decreases linearly as a function of the value of $t_{pe
 The neuron's firing rate decreases superlinearly as a function of the value of $t_{peak}$.
 
 Answers:
-
+The neuron's firing rate increases sublinearly as a function of the value of $t_{peak}$.
 
 ## 7.
 Continued from Question 6:
@@ -105,7 +104,7 @@ Increasing the value of $t_{peak}$ decreases the decay rate of the neuron's volt
 Increasing the value of $t_{peak}$ increases the decay rate of the neuron's voltage, decreasing the extent of the summation between the neuron's voltage response to spikes.
 
 Answers:
-
+Increasing the value of $t_{peak}$ decreases the decay rate of the synaptic conductance, allowing more charge to flow per spike and increasing the extent of the summation between input spikes.
 
 ## 8.
 Continued from Question 6:
@@ -113,13 +112,14 @@ Continued from Question 6:
 How would you turn this synapse into an inhibitory synapse? (Check all that apply)
 
 
-Changing the value of $E_{syn}$ to be less than that of $V_{th}$.
-Changing the value of $E_{syn}$ to be greater than 0.
-Changing the value of $E_{syn}$ to be less than 0.
-Changing the value of $E_{syn}$ to be less than that of $E_{leak}$.
+[] Changing the value of $E_{syn}$ to be less than that of $V_{th}$.
+[] Changing the value of $E_{syn}$ to be greater than 0.
+[] Changing the value of $E_{syn}$ to be less than 0.
+[] Changing the value of $E_{syn}$ to be less than that of $E_{leak}$.
 
 Answers:
-
+Changing the value of $E_{syn}$ to be less than that of $V_{th}$.
+Changing the value of $E_{syn}$ to be less than that of $E_{leak}$.
 
 ## 9.
 (Question variation 2: Different variations have different numbers) Suppose that we had a linear recurrent network of 5 input nodes and 5 output nodes. Let us say that our network's weight matrix W is:
@@ -133,5 +133,4 @@ Which of the following is the steady state output ${\bf v_{ss}}$ of the network?
 
 
 Answers:
-
-
+[0.57468284 0.46104003 0.5556308  0.35789389 0.33646672]
