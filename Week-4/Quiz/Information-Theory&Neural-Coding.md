@@ -133,9 +133,9 @@ This exercise is based on a set of artificial "experiments" that we've run on fo
 
 In the first set of experiments, we probed each neuron with a range of air velocity stimuli of uniform intensity and differing direction. We recorded the firing rate of each of the neurons in response to each of the stimulus values. Each of these recordings lasted 10 seconds and we repeated this process 100 times for each neuron-stimulus combination.
 
-We've supplied you with a .mat file for each of the neurons that contains the recorded firing rates (in Hz). These are named neuron1neuron1, neuron2neuron2, neuron3neuron3, and neuron4neuron4. The stimulus, that is, the direction of the air velocity, is in the vector named stimstim.
+We've supplied you with a .mat file for each of the neurons that contains the recorded firing rates (in Hz). These are named neuron1, neuron2, neuron3, and neuron4. The stimulus, that is, the direction of the air velocity, is in the vector named stimstim.
 
-The matrices contain the results of running a set of experiments in which we probed the synthetic neuron with the stimuli in stim. Each column of a neuron matrix contains the firing rate of that neuron (in Hz) in response to the corresponding stimulus value in stimstim. That is, n\text{th}nth column of neuron1neuron1 contains the 100 trials in which we applied the stimulus of value stim(n) to neuron1neuron1.
+The matrices contain the results of running a set of experiments in which we probed the synthetic neuron with the stimuli in stim. Each column of a neuron matrix contains the firing rate of that neuron (in Hz) in response to the corresponding stimulus value in stimstim. That is, nth column of neuron1 contains the 100 trials in which we applied the stimulus of value stim(n) to neuron1.
 
 Plot the tuning curve-- the mean firing rate of the neuron as a function of the stimulus-- for each of the neurons.
 
@@ -170,7 +170,7 @@ In order to realize why this might be helpful, consider the fact that, for a con
 Ansewer:
 Neuron 3.
 
-## 9. 
+## 9. What is the direction, in degrees, of the population vector?
 
 Continued from Question 7:
 
