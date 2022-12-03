@@ -67,8 +67,10 @@ We have to make a number of assumptions to get to this equation. Necessarily we 
 Answers:
 
 This model ignores the effects of synchrony and correlation between the input neurons.
-This model cannot adequately represent many of the dynamics of individual cells, such as the effect of the refractory period.2.1/3
-
+This model cannot adequately represent many of the dynamics of individual cells, such as the effect of the refractory period.
+This model shows us the outputs the system will converge to, but no longer describes the time dynamics of that convergence.
+This model assumes static, unchanging inputs, so it does not account for the dynamics resulting from constantly changing inputs.
+This model ignores patterns in the input and output spike timings, opting instead to simply look at firing rates.
 
 ## 6.
 The next three questions utilize the following code to model an integrate-and-fire neuron receiving input spikes through an alpha synapse:
@@ -133,4 +135,5 @@ Which of the following is the steady state output ${\bf v_{ss}}$ of the network?
 
 
 Answers:
+[0.616, 0.540, 0.609, 0.471, 0.430]
 [0.57468284 0.46104003 0.5556308  0.35789389 0.33646672]
